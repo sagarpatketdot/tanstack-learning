@@ -8,5 +8,8 @@ export default defineConfig({
         projects: ['./tsconfig.json']
       })
     ]
+  },
+  server: {
+    preset: 'vercel'
   }
 });
